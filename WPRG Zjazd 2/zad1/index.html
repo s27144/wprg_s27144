@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator WPRG s27144</title>
+</head>
+
+<body style="background-color: bisque;">
+<center>
+<h2>Kalkulator</h2>
+<form action="kalkulator.php" method="post">
+    <input type="number" name="number1" placeholder="Podaj pierwszą liczbę" required><br><br>
+    <input type="number" name="number2" placeholder="Podaj drugą liczbę" required><br><br>
+    <select name="operation" required>
+        <option value="dodawanie">Dodawanie</option>
+        <option value="odejmowanie">Odejmowanie</option>
+        <option value="mnozenie">Mnożenie</option>
+        <option value="dzielenie">Dzielenie</option>
+    </select><br><br>
+    <button type="submit">Oblicz</button>
+</form>
+</center>
+</body>
+</html>
