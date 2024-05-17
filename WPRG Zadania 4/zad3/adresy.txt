@@ -1,0 +1,4 @@
+http://google.com/;Google
+http://youtube.com/;YouTube
+http://x.com/;X
+http://reddit.com/;Reddit
